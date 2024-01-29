@@ -36,14 +36,15 @@ import InformalEvents from './InformalEvents';
         
         
       
-        <Routes baseName="/mst">
+    <Routes baseName="/mst">
         
-        <Route path='/' element={<Home/>} />
+        <Route path='/mst' element={<Home/>} />
         <Route path='/gallery' element={<GalleryPage/>} />
         <Route path='/events/sportsevents' element={<SportsEvents/>} />
           <Route path='/events' element={<InformalEvents/>} />
         
         </Routes>
+
         <Footer/>
         
       </Router>
