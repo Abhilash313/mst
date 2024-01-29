@@ -1,0 +1,29 @@
+body{
+    /* background-color: #f0f0f0; */
+    /* background-image: url('./logo.png');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    overflow: scroll; */
+    /* background-color: #c48787; */
+    /* background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+/* background-color: black; */
+/* background-image: url('https://i.pinimg.com/originals/1e/23/36/1e2336811b97fdc1b736836a0e574a29.jpg');
+background-size: 100%  100%;
+background-repeat: no-repeat; */
+/* background-image: url('./bg.png'); */
+background-color: rgb(0, 0, 0);
+/* background-image: url('./bg.png'); */
+/* background-attachment: fixed; */
+    
+  overflow-x: hidden;
+  }
+  @media only screen and (max-width: 950px) {
+    body{
+      /* background-color: #f0f0f0;  */
+      background-color: #f0f0f0;
+      /* background: #012734; */
+    }
+  }

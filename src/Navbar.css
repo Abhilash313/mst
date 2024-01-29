@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+  @media only screen and (min-width:951px) {
+    .nav{
+        display: flex;
+        /* z-index: 1;
+       position: fixed; */
+        height: 4vw;
+        width: 100%;
+        /* background-color: white; */
+       align-items: center;
+       
+       /* color: white; */
+       background-color: rgba(20, 20, 20);
+       
+        
+      }
+      .nav a{
+        text-decoration: none;
+        display: flex;
+      }
+      
+      
+      .navtext{
+        padding-left: 0.5vw;
+        padding-right: 4vw;
+        font-size: 1vw;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        
+      }
+      .nav a:hover{
+        color: goldenrod ;
+        
+        transform:scale(1.05);
+      }
+      #logo:hover{
+        transform: none;
+      }
+     
+      
+      
+      
+      
+      
+      
+      
+      
+      .navtoponly{
+        display: none;
+      }
+      .icon{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 1.5vh; */
+        
+    }
+    
+    #logo{
+        display: flex ;
+        align-items: center;
+    }
+    .logoimage{
+        padding: 2vh 1.3vw 2vh 2vw;
+    }
+    .logoimage img{
+      height: 3.5vw;
+      width: auto;
+  }
+    .wname{
+        color: #FFBF00;
+        
+        padding-right: 15vw;
+        font-size:3vw;
+        font-family: 'Lemon', serif;
+        font-weight: bolder;
+    }
+    
+    
+  }
+ 
+  @media only screen and (max-width: 950px) {
+    .nav{
+   
+        height: 7vh;
+      background-color: white;
+      overflow: hidden;
+      
+      bottom: 0;
+      width: 100%;
+      display:flex;
+     align-items: center;
+     justify-content: space-around;
+     position: fixed;
+       z-index: 1;
+      
+    }
+    
+    
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5vh;
+        
+    }
+    
+    
+    .nav a{
+      color: black;
+      text-decoration: none;
+    }
+    
+    .nav a:hover{
+      color: goldenrod ;
+      
+     
+    }
+    .navtext{
+        
+        font-size: smaller;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    .logo{
+      display: none;
+    }
+    
+    .navtoponly{
+      background-color: rgb(255, 255, 255);
+      /* background-color: #; */
+      display: flex;
+      align-items: center;
+      
+      height: 7vh;
+      width: 100%;
+     
+    }
+    .navtoponly img{
+      height: 80%;
+      width: auto;
+        padding-left: 1vh;
+        padding-right: 1vh;
+    }
+    .navtoponly div{
+      font-size: 7vw;
+      color: #FFBF00;
+      font-family: 'Lemon', serif;
+      -webkit-text-stroke: 0.5px black;
+    }
+    
+    
+   
+  }
+  

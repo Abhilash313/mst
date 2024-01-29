@@ -1,0 +1,255 @@
+.informal-events{
+    background-color: #FFDEE9; 
+ background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+/* .informal-events .main-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./sportscover.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 'auto' '100vw';
+} */
+.informal-events .events-cover img{
+    width: 100vw;
+
+    animation-name: opacity ;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function:linear;  
+}
+.informal-events .buttons{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informal-events .button-1,.button-2{
+    
+    
+    height: 5vh;
+    width: 8vw;
+    
+}
+
+.informal-events .button-1{
+    border-radius: 10vw 0vw 0vw 10vw;
+    background-color: navy;
+    color: white;
+    border: none;
+    
+}
+.informal-events .button-2{
+    border-radius: 0vw 10vw 10vw 0vw;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+/* .formal-big{
+    margin: 100px;
+    border-radius : 100px 0px 0px 100px ;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    background-color: goldenrod;
+    border: 2px solid  black;
+} */
+.informal-events .medium1,.medium2,.medium3{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw 10vh 10vw;
+}
+.informal-events .small1{
+    color: white;
+    border-radius : 100px 0px 0px 100px ;
+    height: 16vw;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid  white;
+    margin-right: 5vw;
+     animation-name: leftmove ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function:linear;  
+     
+}
+
+.informal-events .small2{
+    color: white;
+    border-radius : 0px 100px 100px 0px ;
+    height: 16vw;
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid  rgb(255, 255, 255);
+    margin-left: 5vw;
+    animation-name: rightmove ;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+.informal-events .matter1,.matter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    text-align: center;
+    font-size: 1vw;
+    /* overflow: scroll; */
+    padding: 2%;
+}
+.informal-events .register-button{
+    
+    
+    color: white;
+    /* background-color: goldenrod; */
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D 51%, #F09819 100%);
+    border: 0;
+    padding:1vh 0.5vw 1vh 0.5vw ;
+    border-radius: 10px;
+    margin: 3%;
+    width: 6vw;
+    
+}
+.informal-events .image1 img{
+    width: 16vw;
+    height: 16vw;
+    border-radius : 100px 0px 0px 100px ;
+    
+}
+.informal-events .image2 img{
+    width: 16vw;
+    height: 16vw;
+    border-radius : 0px 100px 100px 0px ;
+    
+}
+.informal-events .medium1,.medium2,.medium3{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+.informal-events h2{
+    margin: 0.5vh 0 0.5vh 0;
+}
+@media only screen and (max-width: 950px) {
+
+    .informal-events .medium1,.medium2,.medium3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* flex-wrap: wrap; */
+    }
+    .informal-events .small1{
+        color: white;
+        border-radius : 100px 0px 0px 100px ;
+        height: 40vw;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid  white;
+        margin-bottom: 2.5vh;
+        margin-right: 0;
+         animation-name: leftmove ;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function:linear;  
+         
+    }
+    
+    .informal-events .small2{
+        color: white;
+        border-radius : 0px 100px 100px 0px ;
+        height: 40vw;
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        border: 2px solid  rgb(255, 255, 255);
+        margin-top: 2.5vh;
+        margin-left: 0;
+        animation-name: rightmove ;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+    }
+    .informal-events .image1 img{
+        width: 40vw;
+        height: 40vw;
+        border-radius : 100px 0px 0px 100px ;
+        
+    }
+    .informal-events .image2 img{
+        width: 40vw;
+        height: 40vw;
+        border-radius : 0px 100px 100px 0px ;
+        
+    }
+    .informal-events .matter1,.matter2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        text-align: center;
+        font-size: 2.5vw;
+        /* overflow: scroll; */
+        padding: 2%;
+    }
+    .informal-events .medium1,.medium2,.medium3{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        padding: 2.5vh 10vw 2.5vh 10vw;
+    }
+    .informal-events .register-button{
+
+        width: 15vw;
+        font-size:2.5vw ;
+        
+    }
+    .informal-events .button-1,.button-2{
+    
+    
+        height: 4vh ;
+        width: 20vw ;
+        font-size: 2.5vw;
+        
+    }
+
+
+
+}
+@keyframes leftmove {
+    from {
+  margin-right: 0;
+    }
+    to {
+        background-color: black;
+        margin-right: 5vw;
+    }
+  }
+  @keyframes rightmove {
+    from {
+  margin-left: 0;
+    }
+    to {
+        background-color: black;
+        margin-left: 5vw;
+    }
+  }
+  @keyframes opacity {
+    from {
+ 
+  opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }

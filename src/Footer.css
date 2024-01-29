@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    
+    background-color: rgb(20, 20, 20);
+   
+    
+    
+}
+.footer-logo{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-logo h6{
+    font-size:55px ;
+    padding-top: 1vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.quick-links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+   /* height: 100%; */
+   /* padding-top: 10vh; */
+   padding-bottom: 16vh;
+
+}
+.quick-links-title{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 7vh;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-logo img{
+    height: auto;
+    width: 12vw;
+}
+.mnit-logo img{
+    height: auto;
+    width: 12vw;
+}
+.mnit-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mnit-logo h6{
+    font-size:55px ;
+    padding-top: 1vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.quick-links a{
+    padding: 1vw;
+    text-decoration: none;
+    font-size:large;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.quick-links a:hover{
+    color: goldenrod;
+    transform:scale(1.1) ;
+}
+.invisible-footer{
+    display: none;
+}
+@media only screen and (max-width: 950px) {
+    .footer{
+        display: none;
+       /* height: 7vh;
+       z-index: -1;
+       font-size: 0px !important; */
+    }
+    .invisible-footer{
+        display: block;
+        bottom: 0;
+        height: 7vh;
+        background-color: white;
+        position: relative;
+    }
+    .footer2{
+        display: none !important;
+    }
+}

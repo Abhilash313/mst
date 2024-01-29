@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&family=Roboto:wght@300&display=swap');
+.aboutMNIT{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+     /* background-color: rgb(30, 8, 37);  */
+     /* background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% ); */
+     /* background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% ); */
+    /* background: rgb(20, 20, 20);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%); */
+    margin: 1.5vh 3vw 1.5vh 3vw;
+    border-radius: 14px;
+    text-align: center;
+    /* animation-name: test;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear; */
+    /* background-color:linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% );  */
+    background-image: url('./vltc_img2.jpeg');
+    background-size: 100% 100%;
+    /* opacity: 0.95; */
+    border: 3px solid white;
+     
+}
+
+.matter{
+    height: 100%;
+    display: flex;
+    padding: 2vw;
+    flex-direction: row;
+    
+   
+
+}
+.matter div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    
+}
+.vltcimage{
+    display: none !important;
+}
+.aboutMNIT div div{
+
+    padding: 0% 1% 1% 1%;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 3vw ;
+    
+}
+.aboutMNIT div img{
+   
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.aboutMNIT div p{
+    width: 100%;
+    margin: 3%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    /* -webkit-text-stroke: 0.5px black; */
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500; */
+    font-size: medium;
+   
+    
+    /* text-decoration-color: black;
+    text-shadow: 2px black; */
+}
+/* .abouttext{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column-reverse;
+} */
+.aboutMNIT .logo{
+    height: 4vw;
+    width: 4vw;
+    padding: 0% 1% 1% 1%;
+}
+.aboutMNIT .heading{
+    display: flex;
+    justify-content: center;
+    /* padding-top: 1%; */
+}
+@media only screen and (max-width: 1335px) {
+    .aboutMNIT{
+      flex-direction: column;
+        height: 100%;
+        background: #012734;
+       
+        /* background-image:linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% ); */
+        /* background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% ); */
+        /* background-image: linear-gradient( 109.6deg,  rgba(255,24,134,1) 11.2%, rgba(252,232,68,1) 52%, rgba(53,178,239,1) 100.2% ); */
+         /* background-image: linear-gradient( 171.8deg,  rgba(5,111,146,1) 13.5%, rgba(6,57,84,1) 78.6% ); */
+         border: 3px solid rgb(0, 0, 0);
+         /* background-image: radial-gradient( circle farthest-corner at -8.9% 51.2%,  rgba(255,124,0,1) 0%, rgba(255,124,0,1) 15.9%, rgba(255,163,77,1) 15.9%, rgba(255,163,77,1) 24.4%, rgba(19,30,37,1) 24.5%, rgba(19,30,37,1) 66% ); */
+    }
+
+    .matter{
+        display: block;
+        padding-left: 0;
+    }
+    .matter div{
+        /* display: flex;
+        align-items: center; */
+        /* height: 50vh; */
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    .aboutMNIT div p{
+       background-color:inherit;
+       font-size: medium;
+    }
+    .aboutMNIT div div{
+        padding: 1%;
+        color: rgb(255, 255, 255);
+        
+        font-size: 5vw;
+       
+    }
+    /* .aboutMNIT div p{
+        
+       color: #85a2b2;
+    } */
+    .vltcimage{
+        display: flex !important;
+    }
+    .aboutMNIT div img{
+   
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        
+    }
+}

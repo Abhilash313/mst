@@ -1,0 +1,33 @@
+/* .slider{
+    background-color:white;
+    border-radius: 14px;
+    
+}
+
+  .carousel-container {
+    max-width: 100%;
+  } */
+  
+   @media only screen and (max-width:950px) {
+    
+    .sliderimage{
+      display: none !important;
+    }
+    .sliderimage2{
+      display: block;
+    }
+  }
+  @media only screen and (min-width:951px) {
+    /* .slider{
+      
+      position: sticky !important;
+     
+    } */
+    .sliderimage2{
+      display: none !important;
+    }
+    .sliderimage{
+      display: block;
+    }
+  } 
+  
