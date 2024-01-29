@@ -38,7 +38,7 @@ import InformalEvents from './InformalEvents';
       
         <Routes baseName="/mst">
         
-        <Route path='/mst' element={<Home/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/gallery' element={<GalleryPage/>} />
         <Route path='/events/sportsevents' element={<SportsEvents/>} />
           <Route path='/events' element={<InformalEvents/>} />
